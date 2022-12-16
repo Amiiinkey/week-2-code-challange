@@ -1,0 +1,23 @@
+{
+  "name": "week2code-challenge-phase1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al-hajjar/week2code-challenge-phase1.git"
+  },
+  "keywords": [
+    "FETCH",
+    "GET"
+  ],
+  "author": "kidhri salim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/al-hajjar/week2code-challenge-phase1/issues"
+  },
+  "homepage": "https://github.com/al-hajjar/week2code-challenge-phase1#readme"
+}

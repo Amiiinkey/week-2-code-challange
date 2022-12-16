@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sytyle.css">
+    <link rel="icon" href="./images/pngwing.com.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Oswald:wght@700&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo">
+        <h1>Flatacuties</h1>
+    </div>
+  
+    <div id="character-bar">
+        <!-- show characters names here -->
+    </div>
+  
+    <div class="characterInfo">
+        <div id="detailed-info">
+            <p id="name">Character's Name</p>
+            <img
+            id="image"
+            src="./images/pngwing.com.png"
+            alt="Character's Name"
+            /><!-- display character image here -->
+            <h4>Total Votes: <span id="vote-count">Character's Votes</span></h4>
+            <form id="votes-form">
+              <input type="text" placeholder="Enter Votes" id="votes" name="votes" />
+              <input type="submit" value="Add Votes" />
+            </form>
+          <button id="reset-btn">Reset Votes</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
